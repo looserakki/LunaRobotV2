@@ -372,14 +372,6 @@ def luna_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(
-                            text="Setup Guide", callback_data="luna_aselole"
-                        ),
-                        InlineKeyboardButton(
-                            text="T & C", callback_data="luna_puqi"
-                        ),
-                    ],
                     [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="luna_back")],
                 ]
             ),
