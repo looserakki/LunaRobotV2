@@ -905,11 +905,11 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "`Initializing Bot On Azure Server Please Wait.....`"), 
-      await asyncio.sleep(0.9)
+            asyncio.sleep(0.9)
             dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "`Loading Plugins...\nFound 30 Plugins With 17  Modules`"), 
-      await asyncio.sleep(0.9)
+            asyncio.sleep(0.9)
             dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "`Booting Your Databases...`"), 
-      await asyncio.sleep(0.9)
+            asyncio.sleep(0.9)
             dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "<b>`Bot Started Enjoy\n Powered By :- @XRaichu_Official`</b>"),              
         except Unauthorized:
             LOGGER.warning(
