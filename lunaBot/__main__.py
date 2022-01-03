@@ -110,7 +110,7 @@ If you want to report any bugs or need any help with setting up Alina, reach us 
 
 
 
-DONATE_STRING = ""Here You Can Donate To Dev For Server., 
+DONATE_STRING = """Here You Can Donate To Dev For Server., 
  [Blaze](https://paypal.me/piroXpower) ❤️
 """
 
