@@ -4,6 +4,7 @@ import os
 import sys
 import time
 import spamwatch
+from telethon.sessions import StringSession
 import aiohttp
 from aiohttp import ClientSession
 
