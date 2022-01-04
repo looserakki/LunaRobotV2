@@ -270,11 +270,11 @@ def new_member(update: Update, context: CallbackContext):
                             [
                                 {
                                     InlineKeyboardButton(
-                                        text="ɢᴏ ɪɴʟɪɴᴇ​!",
-                                        switch_inline_query_current_chat=""),
+                                        text="ᴜᴘᴅᴀᴛᴇs!",
+                                        url="https://t.me/XRaichuNews"),
                                     InlineKeyboardButton(
                                         text="sᴜᴘᴘᴏʀᴛ​",
-                                        url="https://t.me/lunaXresso",
+                                        url="https://t.me/XRaichu_Official",
                                     )
                                 }
                             ]
