@@ -13,6 +13,7 @@ from lunaBot import (
     DEMONS,
     TIGERS,
     WOLVES,
+    BAN_STICKER, 
     dispatcher,
 )
 from lunaBot.modules.disable import DisableAbleCommandHandler
