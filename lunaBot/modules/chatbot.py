@@ -3,7 +3,7 @@ import re
 import os
 import html
 import requests
-import lunaBot.modules.sql.kuki_sql as sql
+import lunaBot.modules.sql.chatbot_sql as sql
 
 from time import sleep
 from telegram import ParseMode
