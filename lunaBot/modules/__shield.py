@@ -12,7 +12,7 @@ from telethon import events
 from telethon.tl.types import ChatBannedRights
 from pymongo import MongoClient
 
-from lunaBot.pyrogramee.pluginhelpers import is_admin
+from lunaBot.pyrogramee.pluginshelper import is_admin
 from lunaBot.events import register
 from lunaBot.modules.sql.nsfw_watch_sql import (
     add_nsfwatch,
