@@ -555,12 +555,8 @@ Constantly help banning spammers off from your group automatically So, you wont 
 GBAN_HANDLER = CommandHandler("gban", gban)
 UNGBAN_HANDLER = CommandHandler("ungban", ungban)
 GBAN_LIST = CommandHandler("gbanlist", gbanlist)
-GBAN_STATUS = CommandHandler(
-    "antispam", gbanstat, filters=Filters.chat_type.groups
-)
-GBAN_ENFORCER = MessageHandler(
-    Filters.all & Filters.chat_type.groups, enforce_gban
-)
+GBAN_STATUS = CommandHandler("antispam", gbanstat, filters=Filters.group)
+GBAN_ENFORCER = MessageHandler(Filters.all & Filters.group, enforce_gban)
 
 dispatcher.add_handler(GBAN_HANDLER)
 dispatcher.add_handler(UNGBAN_HANDLER)
